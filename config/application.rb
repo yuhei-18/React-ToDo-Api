@@ -28,6 +28,9 @@ module ReactTodo
       g.test_framework :rspec
     end
 
+    config.i18n.available_locales = %i[ja en]
+    config.i18n.default_locale = :ja
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
