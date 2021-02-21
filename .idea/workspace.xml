@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2f2148-21d0-4538-849c-caea4868375e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spec/controllers/todos_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/todos.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/todos_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/todos.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/todo_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +59,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613797846083</updated>
-      <workItem from="1613797849207" duration="7265000" />
+      <workItem from="1613797849207" duration="17639000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Todo モデル、コントローラーの追加">
+      <created>1613885731833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613885731834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Todo モデル、コントローラーの追加">
+      <created>1613885755887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613885755887</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test: Rspec の追加">
+      <created>1613885789105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613885789105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,5 +92,21 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="rake" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="rails" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Todo モデル、コントローラーの追加" />
+    <MESSAGE value="test: Rspec の追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: Rspec の追加" />
   </component>
 </project>

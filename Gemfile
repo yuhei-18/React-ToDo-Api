@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
@@ -32,7 +32,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'faker'
   gem 'factory_bot_rails'
-  gem 'database_cleaner'
 end
 
 group :development do
