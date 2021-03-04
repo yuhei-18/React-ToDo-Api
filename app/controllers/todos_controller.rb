@@ -3,7 +3,7 @@ class TodosController < ApplicationController
 
   # Get /todos
   def index
-    todos = Todos.all
+    todos = Todo.all.order(:id)
     render json: todos
   end
 
@@ -47,6 +47,6 @@ class TodosController < ApplicationController
   end
 
   def todo_params
-    params.require(:todo).permit(:title, :content)
+    params.require(:todo).permit(:title, :content, :is_done)
   end
 end

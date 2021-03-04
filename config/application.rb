@@ -36,6 +36,15 @@ module ReactTodo
     config.i18n.available_locales = %i[ja en]
     config.i18n.default_locale = :ja
 
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins "http://localhost:3000"
+        resource "*",
+                 headers: :any,
+                 methods: [:get, :post, :patch, :delete, :options, :head]
+      end
+    end
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
