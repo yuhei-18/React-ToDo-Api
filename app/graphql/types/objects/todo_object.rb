@@ -18,11 +18,11 @@ module Types
         description 'コンテンツ'
       end
 
-      field :priority, Int, null: false do
+      field :priority, Integer, null: true do
         description '優先度'
       end
 
-      field :due_date, Scalars::DateTimeScalar, null: false do
+      field :due_date, Scalars::DateTimeScalar, null: true do
         description '期限'
       end
 
