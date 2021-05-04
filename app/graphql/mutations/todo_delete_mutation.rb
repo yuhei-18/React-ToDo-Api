@@ -15,7 +15,7 @@ module Mutations
 
     def resolve(id:)
       if Todo.exists? id: id
-        Todo.find_by(id).destroy!
+        Todo.find(id).destroy!
 
         {
           deleted_todo_id: id,
