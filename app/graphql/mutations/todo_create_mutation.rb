@@ -1,6 +1,7 @@
 module Mutations
   class TodoCreateMutation < BaseMutation
     graphql_name 'TodoCreate'
+    description 'Todo 情報の作成'
 
     argument :title, String, required: true
 
