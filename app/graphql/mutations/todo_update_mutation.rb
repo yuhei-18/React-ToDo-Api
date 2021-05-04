@@ -23,7 +23,7 @@ module Mutations
     graphql_name 'TodoUpdate'
     description 'Todo 情報の更新'
 
-    argument :id, String, required: true
+    argument :id, ID, required: true
 
     argument :title, String, required: true
 
@@ -39,8 +39,8 @@ module Mutations
       description 'Todo 情報'
     end
 
-    field :todo_errors, Types::Objects::TodoErrorObject, null: true do
-      description 'ミューテーション実行時の Todo エラー情報'
+    field :todo_errors, [Types::Objects::TodoErrorObject], null: false do
+      description 'ミューテーション実行中に発生した Todo エラーリスト'
     end
 
     def resolve(id:, title:, content:, priority: nil, due_date: nil, is_done: false)
