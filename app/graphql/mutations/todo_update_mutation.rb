@@ -49,7 +49,7 @@ module Mutations
 
       todo = Todo.find_by(id: id)
 
-      validate_todo todo
+      validate_todo todo: todo
 
       todo.title = title
       todo.content = content
