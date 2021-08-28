@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 起動方法
 
-Things you may want to cover:
+### DB 用意 （ Postgres ）
 
-* Ruby version
+`docker-compose up -d`
 
-* System dependencies
+### サーバー起動
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails s -p 3030`
